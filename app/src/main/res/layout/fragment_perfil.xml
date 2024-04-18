@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center_horizontal" android:orientation="vertical" android:padding="16dp">
+    <TextView android:id="@+id/nombreLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Nombre" android:textSize="16sp" android:textColor="@android:color/black" android:layout_gravity="start"/>
+    <com.google.android.material.textfield.TextInputLayout android:id="@+id/nombreTextInputLayout" style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+        <com.google.android.material.textfield.TextInputEditText android:id="@+id/nombreEditText" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="ERNESTO ARTURO "/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView android:id="@+id/apellidoLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Apellido" android:textSize="16sp" android:textColor="@android:color/black" android:layout_gravity="start"/>
+    <com.google.android.material.textfield.TextInputLayout android:id="@+id/apellidoTextInputLayout" style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+        <com.google.android.material.textfield.TextInputEditText android:id="@+id/apellidoEditText" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="MARTINEZ MURCIA"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView android:id="@+id/emailLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Email" android:textSize="16sp" android:textColor="@android:color/black" android:layout_gravity="start"/>
+    <com.google.android.material.textfield.TextInputLayout android:id="@+id/emailTextInputLayout" style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+        <com.google.android.material.textfield.TextInputEditText android:id="@+id/emailEditText" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="earmartinez@poligran.edu.co"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView android:id="@+id/rolLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rol" android:textSize="16sp" android:textColor="@android:color/black" android:layout_gravity="start"/>
+    <com.google.android.material.textfield.TextInputLayout android:id="@+id/rolTextInputLayout" style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText android:id="@+id/rolEditText" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="Administrador"/>
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>
